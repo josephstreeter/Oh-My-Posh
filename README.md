@@ -14,6 +14,6 @@ winget install JanDeDobbeleer.OhMyPosh -s winget
 Edit the PowerShell profile file to load the configuration file
 
 ```powershell
-$omp_config = 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/jandedobbeleer.omp.json'
-oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression =
+$omp_config = 'https://raw.githubusercontent.com/josephstreeter/Oh-My-Posh/refs/heads/main/jstreeter.omp.json'
+oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 ```
